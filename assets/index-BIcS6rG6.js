@@ -96,7 +96,7 @@
   </ul>
   <p class="indice__conta rotulo" id="conta" aria-live="polite"></p>
   <img class="indice__foto" id="foto-flutuante" alt="" aria-hidden="true" />
-</section>`,ac={email:`contato@seudominio.com.br`,endereco:`Cidade · UF`,redes:[[`Instagram`,`#`],[`LinkedIn`,`#`],[`YouTube`,`#`]]},oc=[[`p-campanhas`,4,8,.9],[`p-w05`,78,4,.35],[`p-videos`,86,22,.8],[`p-w02`,9,38,.2],[`p-w06`,70,46,.55],[`p-agentes`,2,62,.75],[`p-w07`,24,6,.25],[`p-automacao`,80,66,.95],[`p-w01`,36,72,.4],[`p-w09`,60,78,.15],[`p-w03`,14,84,.6],[`p-w04`,92,48,.3],[`p-w08`,52,2,.5],[`p-w05`,28,46,.1]],sc=()=>`
+</section>`,ac={email:`contato@marmota.ia.br`,endereco:`Vilhena · Rondônia`,redes:[]},oc=[[`p-campanhas`,4,8,.9],[`p-w05`,78,4,.35],[`p-videos`,86,22,.8],[`p-w02`,9,38,.2],[`p-w06`,70,46,.55],[`p-agentes`,2,62,.75],[`p-w07`,24,6,.25],[`p-automacao`,80,66,.95],[`p-w01`,36,72,.4],[`p-w09`,60,78,.15],[`p-w03`,14,84,.6],[`p-w04`,92,48,.3],[`p-w08`,52,2,.5],[`p-w05`,28,46,.1]],sc=()=>`
 <section class="final" id="contato">
   <div class="final__cena">
     <div class="final__fotos" aria-hidden="true">
