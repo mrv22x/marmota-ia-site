@@ -96,7 +96,7 @@
   </ul>
   <p class="indice__conta rotulo" id="conta" aria-live="polite"></p>
   <img class="indice__foto" id="foto-flutuante" alt="" aria-hidden="true" />
-</section>`,ac={email:`contato@marmota.ia.br`,endereco:`Vilhena · Rondônia`,redes:[]},oc=[[`p-campanhas`,4,8,.9],[`p-w05`,78,4,.35],[`p-videos`,86,22,.8],[`p-w02`,9,38,.2],[`p-w06`,70,46,.55],[`p-agentes`,2,62,.75],[`p-w07`,24,6,.25],[`p-automacao`,80,66,.95],[`p-w01`,36,72,.4],[`p-w09`,60,78,.15],[`p-w03`,14,84,.6],[`p-w04`,92,48,.3],[`p-w08`,52,2,.5],[`p-w05`,28,46,.1]],sc=()=>`
+</section>`,ac={email:`contato@marmota.ia.br`,endereco:`Vilhena · Rondônia`,whats:`https://wa.me/556931850809?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marmota%20IA`,whatsTxt:`(69) 3185-0809`,redes:[]},oc=[[`p-campanhas`,4,8,.9],[`p-w05`,78,4,.35],[`p-videos`,86,22,.8],[`p-w02`,9,38,.2],[`p-w06`,70,46,.55],[`p-agentes`,2,62,.75],[`p-w07`,24,6,.25],[`p-automacao`,80,66,.95],[`p-w01`,36,72,.4],[`p-w09`,60,78,.15],[`p-w03`,14,84,.6],[`p-w04`,92,48,.3],[`p-w08`,52,2,.5],[`p-w05`,28,46,.1]],sc=()=>`
 <section class="final" id="contato">
   <div class="final__cena">
     <div class="final__fotos" aria-hidden="true">
@@ -110,8 +110,8 @@
   <footer class="rodape">
     <div class="rodape__cols">
       <div><p class="rodape__titulo">Tem uma marca para fazer crescer?</p>
-        <a class="pilula pilula--cheia pilula--grande" href="mailto:${ac.email}">Falar com a Marmota</a></div>
-      <div class="rodape__col"><a href="mailto:${ac.email}">${ac.email}</a><p>${ac.endereco}</p></div>
+        <a class="pilula pilula--cheia pilula--grande" href="${ac.whats}" target="_blank" rel="noopener">Falar com a Marmota no WhatsApp</a></div>
+      <div class="rodape__col"><a href="${ac.whats}" target="_blank" rel="noopener">WhatsApp ${ac.whatsTxt}</a><a href="mailto:${ac.email}">${ac.email}</a><p>${ac.endereco}</p></div>
       <div class="rodape__col">${ac.redes.map(([e,t])=>`<a class="sublinha" href="${t}">${e}</a>`).join(``)}</div>
     </div>
     <div class="rodape__marca" id="rodape-marca" aria-hidden="true">${Us()}</div>
